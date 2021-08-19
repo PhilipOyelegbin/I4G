@@ -1,1 +1,1 @@
-web: gunicorn app.Oyetek:app
+web: gunicorn app.main:app
