@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	 background: #FFFFFF;
+	 line-height: 1.5;
+}
+
+main {
+	display: flex;
+}
+
+aside {
+	width: 40%;
+	background: #01011B;
+	padding: .5rem;
+	color: #fff;
+}
+
+aside h1 {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+aside h3 {
+	background: #070431;
+	margin-top: 1rem;
+}
+
+aside a {
+	color: #fff;
+	text-decoration: none;
+}
+
+input {
+	border-radius: 5px 20px;
+	padding: 5px;
+	margin: 5px auto;
+	width: 93%;
+}
+
+textarea {
+	border-radius: 5px 20px;
+	margin: 5px auto;
+	width: 100%;
+}
+
+[type="reset"], [type="submit"] {
+	border-radius: 5px;
+	padding: 5px;
+	background: #eee;
+	width: 50px;
+	margin: auto 5px;
+}
+
+[type="reset"]:hover, [type="submit"]:hover {
+	background: #999;
+}
+
+article {
+	width: 60%;
+	padding: .5rem;
+	margin-top: 1.5rem;
+}
+
+article h3 {
+	border: 1px solid #999;
+	margin-top: 1rem;
+}
