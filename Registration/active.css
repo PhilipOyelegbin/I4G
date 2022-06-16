@@ -9,7 +9,7 @@
 }
 
 body {
-  background: hsl(0, 100%, 74%) url('bg-intro-mobile.png') no-repeat;
+  background: hsl(0, 100%, 74%) url('images/bg-intro-mobile.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -146,7 +146,7 @@ input:invalid+.error {
 /* for large screen size */
 @media (min-width: 375px) {
   body {
-    background: hsl(0, 100%, 74%) url('bg-intro-desktop.png') no-repeat;
+    background: hsl(0, 100%, 74%) url('images/bg-intro-desktop.png') no-repeat;
   }
   .flex-container {
     flex-flow: row;
