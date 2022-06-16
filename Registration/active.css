@@ -87,7 +87,7 @@ input:focus {
 }
 
 input:required:invalid {
-  background: url('icon-error.svg') no-repeat;
+  background: url('images/icon-error.svg') no-repeat;
   background-position: right;
   background-origin: content-box;
   border: 1px solid hsl(0, 100%, 74%);
