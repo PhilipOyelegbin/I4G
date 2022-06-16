@@ -1,1 +1,1 @@
-A folder which contains the images used in the website
+### A folder which contains the images used in the website
