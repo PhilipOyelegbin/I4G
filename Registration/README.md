@@ -1,1 +1,2 @@
-Zuri task given to clone a registration page
+# Registration Task
+## Zuri task given to clone a registration page
