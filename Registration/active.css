@@ -14,16 +14,27 @@ body {
   background-position: center;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+ul {
+  display: flex;
+}
+
 ul li {
   list-style: none;
 }
 
 ul li a {
   text-decoration: none;
+  text-size: 28px;
   padding: 5px 10px;
   background: blue;
   color: white;
-  margin: 5px;
+  margin: 1.5rem;
 }
 
 .flex-container {
