@@ -35,6 +35,7 @@ ul li a {
   background: blue;
   color: white;
   margin: 1.5rem;
+  border-radius: 5px;
 }
 
 .flex-container {
