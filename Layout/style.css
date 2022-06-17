@@ -8,6 +8,15 @@
   line-height: 1.5;
   font-weight: 400, 700;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+}
 
 ul li {
   list-style: none;
@@ -15,6 +24,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
+  text-size: 28px;
   padding: 5px 10px;
   background: blue;
   color: white;
