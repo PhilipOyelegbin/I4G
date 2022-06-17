@@ -120,7 +120,7 @@ input:focus {
 
 
 /* for large screen size */
-@media (max-width: 375px) {
+@media only screen and (min-width: 375px) {
   body {
     background: hsl(0, 100%, 74%) url('images/bg-intro-desktop.png') no-repeat;
   }
