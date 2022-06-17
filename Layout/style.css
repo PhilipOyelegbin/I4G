@@ -9,6 +9,18 @@
   font-weight: 400, 700;
 }
 
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background: blue;
+  color: white;
+  margin: 5px;
+}
+
 .flex-container {
   display: flex;
   flex-flow: row;
