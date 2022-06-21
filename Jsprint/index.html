@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript - Screen Text Display</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="favicon-32x32.png">
+  <!-- font -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+</head>
+<body>
+  
+  <!-- main page -->
+  <main>
+    <h1 id="name">Your name will be displayed here!</h1>
+    <h2 id="height">Your height will be displayed here!</h2>
+    <h2 id="country">Your country will be displayed here!</h2>
+  </main>
+  
+  
+  <!-- JavaScript code -->
+  <script>
+    const name = prompt("Enter your full name")
+    let height = prompt("Enter your height")
+    const country = prompt("Enter your country name")
+    
+    document.getElementById("name").innerText=`Name: ${name}`;
+    document.getElementById("height").innerText=`Height: ${height}`;
+    document.getElementById("country").innerText=`Country: ${country}`;
+  </script>
+</body>
+</html>
